@@ -33,11 +33,9 @@
     font-weight: 700;
     font-size: 30px;
 }
-
 .logo-style {
     color: rgb(245, 78, 175);
 }
-
 /* navbar */
 .navbar a {
     text-decoration: none;
@@ -82,7 +80,9 @@
     line-height: normal;
     text-transform: lowercase;
 }
-
+.banner-btn{
+    margin-top: 20px;
+}
 .btn-1{
     border: none;
     padding:18px 30px;
@@ -102,4 +102,8 @@
     font-size: 20px;
     text-transform: uppercase;
     font-weight: 600;
+}
+.banner-img img{
+    height: 600px;
+    width: 600px;
 }
