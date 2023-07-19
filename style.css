@@ -178,7 +178,7 @@
 .container-description-p {
   color: #534c64;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 15px;
   margin-bottom: 20px;
   line-height: 30px;
 }
@@ -198,7 +198,7 @@
   color: #534c64;
   font-size: 20px;
   font-weight: 500;
-  line-height: 45px;
+  line-height: 35px;
 }
 
 .purpose {
@@ -206,7 +206,7 @@
   font-size: 30px;
 
   font-weight: 700;
-  line-height: 35px;
+  line-height: 25px;
 }
 
 /* Online Games Funny Videos */
@@ -271,8 +271,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  margin-top: -70px;
-  margin-left: -20px;
+  margin-top: -20px;
+  margin-left: -6px;
 }
 .iconEx {
   margin-left: 25px;
