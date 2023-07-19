@@ -33,9 +33,11 @@
     font-weight: 700;
     font-size: 30px;
 }
+
 .logo-style {
     color: rgb(245, 78, 175);
 }
+
 /* navbar */
 .navbar a {
     text-decoration: none;
@@ -50,6 +52,8 @@
     align-items: center;
     justify-content: space-around;
 }
+
+.banner-title-full {}
 
 .banner-title h1 {
     color: #0B0223;
@@ -80,12 +84,14 @@
     line-height: normal;
     text-transform: lowercase;
 }
-.banner-btn{
+
+.banner-btn {
     margin-top: 20px;
 }
-.btn-1{
+
+.btn-1 {
     border: none;
-    padding:18px 30px;
+    padding: 18px 30px;
     border-radius: 48px;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     color: #FFF;
@@ -93,9 +99,10 @@
     text-transform: uppercase;
     font-weight: 600;
 }
-.btn-2{
+
+.btn-2 {
     border: none;
-    padding:18px 30px;
+    padding: 18px 30px;
     border-radius: 48px;
     background: #4EC5F7;
     color: #FFF;
@@ -103,7 +110,86 @@
     text-transform: uppercase;
     font-weight: 600;
 }
-.banner-img img{
+
+.banner-img img {
     height: 600px;
     width: 600px;
+}
+
+
+
+
+/* We are gamer */
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 110px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.container-description {
+    text-align: right;
+    height: 50%;
+}
+
+.container-description h2 {
+    font-size: 50px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 15px;
+}
+.container-description-p{
+    color:#534C64 ;
+    font-weight:400 ;
+    font-size: 20px;
+    margin-bottom: 20px;
+    line-height: 30px
+}
+.btn-second{
+    border: none;
+    border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+padding: 16px 30px;
+color: #FFFFFF;
+font-size: 20px;
+margin-bottom: 15px;
+text-transform: uppercase;
+}
+.container-description-purpose{
+    color: #534C64;
+font-size: 20px;
+font-weight: 500;
+line-height: 45px
+}
+.purpose{
+    color: #534C64;
+font-size: 30px;
+
+font-weight: 700;
+line-height: 35px;
+}
+
+/* Online Games Funny Videos */
+
+.img-tittle{
+    text-align: center;
+    padding: 100px;
+}
+.vartical-img{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 150px;
+}
+.item p{
+    padding: 15px 0;
+    color: #534C64;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 30px; /* 150% */
 }
