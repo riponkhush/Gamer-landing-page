@@ -183,6 +183,27 @@
     text-align: center;
     padding: 100px;
 }
+.img-tittle h2{
+    color: #0B0223;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+padding: 10px;
+}
+.Funny{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+line-height: normal;
+}
+.img-tittle p{
+    color: #534C64;
+text-align: center;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px
+}
 
 .vartical-img {
     display: flex;
@@ -238,9 +259,85 @@ line-height: 30px;
     height: 500px;
 }
 .over-img{
-    margin-left: 65px;
-    margin-top: 340px;
+    margin-left: -130px;
+    margin-top: -226px;
     position: absolute;
     width: 260px;
     height: auto;
+}
+
+/* Careers */
+.Careers-bg{
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-size: cover;
+    width: auto;
+    height: 500px;
+}
+.Careers-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.careers-img img{
+    height: 500px;
+    width: auto;
+}
+
+
+/* game-service */
+.main-service{
+    width: 100%;
+height: 427px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.game-service{
+    padding: 100px 150px;
+    display: flex;
+}
+.game-catagory{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+
+}
+.game-catagory img{
+    width: 50px;
+    height: 50px;
+}
+.game-catagory:hover{
+    border:1px solid #FF42A5;
+    border-radius: 50px;
+    padding: 5px;
+    color:#FF42A5 ;
+    font-weight: 600;
+}
+
+
+/* Footer section */
+.footer{
+    background-color:#0B0223;
+    width: 100%;
+height: 550px;
+}
+.footer-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.footer-ifm{
+    text-align: center;
+    padding: 120px;
+    color: white;    
+}
+.page-service a{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+    font-size: 18px;
 }
